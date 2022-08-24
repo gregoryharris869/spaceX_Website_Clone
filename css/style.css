@@ -361,6 +361,13 @@ footer ul li a:hover {
   background-image: url("../img/falcon-9.webp");
 }
 
+.bg-falcon-heavy {
+  background-image: url("../img/falcon-heavy.webp");
+}
+
+.bg-dragon {
+  background-image: url("../img/dragon.webp");
+}
 .section-animate {
   animation: fadeIn 2s ease-in-out;
 }
@@ -369,6 +376,7 @@ footer ul li a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 80%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-align: center;
@@ -460,6 +468,10 @@ footer ul li a:hover {
   .mobile-only {
     display: block;
   }
+
+  .section-inner-center h3 {
+    font-size: 75px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -486,5 +498,17 @@ footer ul li a:hover {
   .logo {
     width: 150px;
     margin: auto;
+  }
+
+  .section-inner-center h3 {
+    font-size: 50px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .stats div {
+    margin-bottom: 20px;
   }
 }
